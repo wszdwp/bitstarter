@@ -36,7 +36,7 @@ bitstarter
 
   ssh-add ~/.ssh/id_rsa_heroku
   
-  -Potential problem: "Could not open a connection to your authentication agent." when using ssh-add
+  -Potential problem: "Could not open a connection to your authentication agent." when using ssh-add (ref: https://coderwall.com/p/rdi_wq)
   
   -Reason: ssh-add don't know how to talk with the authentication agent.
   
