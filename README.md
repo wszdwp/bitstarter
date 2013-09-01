@@ -29,6 +29,15 @@ bitstarter
   then added to my machine:
 
   ssh-add ~/.ssh/id_rsa_heroku
+  
+  -Potential problem: "Could not open a connection to your authentication agent." when using ssh-add
+  
+  -Reason: ssh-add don't know how to talk with the authentication agent.
+  
+  -Solution: 
+   1. ssh-agent 
+   2. eval $(ssh-agent)
+  
 
   and, finally, to Heroku
 
