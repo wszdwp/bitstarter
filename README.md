@@ -78,6 +78,18 @@ bitstarter
 
  git push heroku master(if it is ok, you can push commits to your github reposotory: git push origin master)
  
+ potential problems: GitHub to Heroku Commit Error
+ 
+ Reason: For some reason your Heroku repo has diverged
+ 
+ Solution: 
+ 
+  git fetch heroku
+  
+  git merge heroku/master
+
+  git push heroku master
+ 
 
 
 
