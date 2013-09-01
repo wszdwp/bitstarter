@@ -59,7 +59,7 @@ bitstarter
  
 4. redepoly
 
- git push heroku master
+ git push heroku master(if it is ok, you can push commits to your github reposotory: git push origin master)
  
 
 
