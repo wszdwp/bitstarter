@@ -43,8 +43,24 @@ bitstarter
 
   http://frozen-caverns-5064.herokuapp.com/
 
-4. push your github project(where??) to heroku(Push commits : git push origin master)
+4. push your github project(where?? brach or master) to heroku(Push commits : git push origin master)
   git push heroku master
+
+#update your github code and update and then deploy to heroku again
+1. edit your web.js file using emacs/vim/nano
+
+2. add to github
+
+ git add web.js
+ 
+3. commit your updated file to github(branch??)
+
+ git commit -m "Updated web.js"
+ 
+4. redepoly
+
+ git push heroku master
+ 
 
 
 
