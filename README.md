@@ -17,8 +17,14 @@ bitstarter
 
   git fetch upstream
 
-#Push your code to heroku
-1. login your heroku account
+#Configure heroku
+1. Check you heroku accounts, keys (also refer to https://github.com/ddollar/heroku-accounts)
+
+ heroku accounts
+ 
+ heroku keys(if there is mulitple keys for one account, run $ heroku keys:remove adam@workstation.local)
+
+2. login your heroku account
   heroku login
 
 2. How to generate new RSA-new Key and add it to Heroku:
@@ -51,6 +57,8 @@ bitstarter
   http://mysterious-savannah-7174.herokuapp.com/
 
   http://frozen-caverns-5064.herokuapp.com/
+  
+#Push your code to heroku
 
 4. push your github project(where?? brach or master) to heroku(Push commits : git push origin master)
   git push heroku master
