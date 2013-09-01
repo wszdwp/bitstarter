@@ -1,14 +1,14 @@
-var express = require('express');
+var express = require('express');	//import the express lib
 
 var app = express.createServer(express.logger());
 
 var fs = require('fs');
 
-fs.readFileSync('index.html', 'utf8');
-
 var buf = new Buffer(256);
 
-buf.write(fs, 'utf8');
+var htmlfile = "index.html";
+
+buf.write(fs.readFileSync(htmlfile, 'utf8');
 
 app.get('/', function(request, response) {
   response.send('Hello World' + buf.toString());
